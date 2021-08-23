@@ -1,0 +1,9 @@
+CREATE DATABASE app;
+use app;
+
+CREATE TABLE users (
+    id INT(11) AUTO_INCREMENT NOT NULL,
+    name VARCHAR(64) NOT NULL,
+    email VARCHAR(64),
+    PRIMARY KEY (id)
+);
